@@ -1,2 +1,46 @@
 # practice-dynamicDashboard-Jyl-B
 React Basics | Lesson 3   Practice: Dynamic Dashboard
+
+Create a React component called DynamicDashboard that integrates the following skills: 
+        1. Use JavaScript expressions in JSX to display dynamic data. 
+        2. Implement conditional rendering for personalized content. 
+        3. Use the map method to render a list dynamically. 
+
+Instructions: 
+        1. Dynamic Greeting: 
+                ○ Create a variable with a user’s name and initialize it  
+                ○ Render a dynamic greeting for the user inside an <h1> element. 
+        2. Conditional Content: 
+                ○ Create a boolean variable to determine whether a user is a premium user or not. 
+                ○ If the user is a premium member, display a message: "Thank you for being a premium member!". 
+                ○ If not, display: "Upgrade to premium to enjoy exclusive features!". 
+        3. Render a Task List: 
+                ○ Create an array of task objects, each with a taskName and completed status.  
+                ○ Use the map method to render each task of these in a list. Show the task name with: 
+                            ■ A ✅ emoji if it’s completed. 
+                            ■ A ❌ emoji if it’s not completed. 
+        4. Combine Everything: 
+                ○ Display all the components (greeting, conditional message, and task list) within a <div> element. 
+
+
+Stretch Goals: 
+        1. Add a Date Display: 
+                    ○ Use new Date().toLocaleDateString() to display 
+                    the current date at the top of the dashboard. 
+        2. Highlight Completed Tasks: 
+                    ○ Add inline styling to change the text color of completed tasks to green. 
+        3. Display Task Counts: 
+                    ○ Below the task list, show the number of completed and incomplete tasks. 
+        
+        
+Setup 
+For this activity, you will create your own repository to store your code: 
+1. Create a new repository. 
+2. Name it: practice-dynamicDashboard-[Your First Name]-[Your Last Initial] 
+3. Make sure the repository is public. 
+4. Clone the repository to your local machine. 
+5. Start working on the code. 
+6. When you are finished, commit your changes and push them to your 
+repository. 
+Submission 
+Submit the url for your GitHub repo in the field below.
